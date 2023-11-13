@@ -1,0 +1,70 @@
+/* src/app/login/login.component.css */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; /* Adjust the color to match your design */
+  }
+  
+  .login-box {
+    padding: 20px;
+    background-color: #007bff; /* Adjust the color to match your design */
+    border-radius: 5px;
+    text-align: center;
+    width: 300px; /* Adjust the width to match your design */
+  }
+  
+  .title {
+    color: #fff; /* Adjust the color to match your design */
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    color: #fff; /* Adjust the color to match your design */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    text-align: left;
+    color: #fff; /* Adjust the color to match your design */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-options {
+    margin: 15px 0;
+    text-align: left;
+    color: #fff; /* Adjust the color to match your design */
+  }
+  
+  .form-actions {
+    text-align: right;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #ffc107; /* Adjust the color to match your design */
+    color: #333; /* Adjust the color to match your design */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e0a800; /* Adjust the color to match your design */
+  }
+  
+  /* Add further styling according to your design */
+  

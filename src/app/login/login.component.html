@@ -1,0 +1,30 @@
+<!-- src/app/login/login.component.html -->
+<div class="login-wrapper">
+    <div class="login-box">
+      <h1 class="title">FASTEST</h1>
+      <h2>WELCOME BACK!</h2>
+      <h3>LOGIN TO CONTINUE</h3>
+      <form (ngSubmit)="login()">
+        <div class="form-group">
+          <label for="username">USERNAME</label>
+          <input type="email" id="username" [(ngModel)]="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" [(ngModel)]="password" name="password" required>
+        </div>
+        <div class="form-options">
+          <label>
+            <input type="checkbox" name="remember"> Remember
+          </label>
+          <a href="#">Forget password?</a>
+          <a href="#">New Sign-in</a>
+        </div>
+        <div class="form-actions">
+            <button type="button" class="btn" (click)="resetForm()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Sign-in</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
