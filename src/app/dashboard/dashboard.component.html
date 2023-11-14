@@ -36,9 +36,20 @@
         <!-- ... other list items ... -->
       </ul>
     </nav>
-    <main class="main-content">
-      <h1>Data Testing Project Summary</h1>
-      <div class="project-status">
+    <div class="content">
+        <header class="dashboard-header">
+            <div class="project-info">
+              <h1>Data Testing Project Summary</h1>
+            </div>
+            <div class="user-controls">
+              <span class="default-project-text" style="font-size: x-large;">Default Project: Data Testing Project #1</span>
+              <button class="admin-button">Admin</button>
+              <button class="logout-button" (click)="logout()">Logout</button>
+            </div>
+          </header>
+        <main class="main-content">
+          <h2>Home: Data Testing Project Summary</h2>
+          <div class="project-status">
         <h2>Project Status</h2>
         <table class="table">
           <thead>
